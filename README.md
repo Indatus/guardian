@@ -17,6 +17,12 @@ Guardian allows you to protect more than just the `production` environment from 
 
  * Adds confirmation dialog for destructive commands to configurable environment list
  
+Supported artisan commands:
+
+ * `migrate:refresh`
+ * `migrate:reset`
+ * `db:seed`
+ 
 <a name="installation" />
 ## Installation
 
