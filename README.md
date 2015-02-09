@@ -6,12 +6,6 @@ Guardian allows you to protect more than just the `production` environment from 
 
 ---
 
-## README Contents
-
-* [Features](#features)
-* [Installation](#installation)
-* [Configuration](#configuration)
-
 <a name="features" />
 ## Features
 
@@ -48,5 +42,6 @@ Add this line to the providers array in your `app/config/app.php` file :
 
 By default this package adds protection for a `demo` environment in addition to Laravel's native `production` protection.  You can customize this environment list by customizing the package config.
  
- For Laravel 4: `php artisan config:publish indatus/guardian`
- For Laravel 5+: `php artisan publish:config indatus/guardian`
+For Laravel 4: `php artisan config:publish indatus/guardian`
+ 
+For Laravel 5+: `php artisan publish:config indatus/guardian`
