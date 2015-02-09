@@ -1,0 +1,31 @@
+{
+    "name": "indatus/guardian",
+    "description": "Provides extra security for potentially destructive actions",
+    "keywords": ["laravel", "artisan", "migrate", "migrations", "seed", "seeders"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Kuhl",
+            "email": "bkuhl@indatus.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "illuminate/console": "4.2.*@dev",
+        "illuminate/database": "4.2.*@dev",
+        "illuminate/foundation": "4.2.*@dev",
+        "henrikbjorn/phpspec-code-coverage": "~1.0@dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Indatus\\Guardian\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
