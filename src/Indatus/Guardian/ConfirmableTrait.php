@@ -8,7 +8,6 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
 use Illuminate\Console\ConfirmableTrait as LaravelConfirmableTrait;
 use Closure;
 use App;
@@ -25,7 +24,8 @@ trait ConfirmableTrait
      *
      * @return bool
      */
-    public function confirmToProceed($warning = 'Application In Production!', Closure $callback = null) {
+    public function confirmToProceed($warning = 'Application In Production!', Closure $callback = null)
+    {
         /** @var \Indatus\Guardian\ConfirmationService $confirmationService */
         $confirmationService = App::make('Indatus\Guardian\ConfirmationService');
 

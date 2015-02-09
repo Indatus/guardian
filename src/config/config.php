@@ -1,8 +1,8 @@
 <?php return [
     /**
-     * Additional environments to prevent commands from running from
+     * Additional environments where you'd like to see confirmation dialogs
      */
     'environments' => [
-        'demo', 'production'
-    ]
+        'demo', 'production',
+    ],
 ];

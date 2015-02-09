@@ -8,8 +8,6 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
-use Indatus\Guardian\Commands\ConfigPublishCommand;
 use Indatus\Guardian\Commands\DatabaseSeedCommand;
 use Indatus\Guardian\Commands\Migrations\RefreshCommand;
 use Indatus\Guardian\Commands\Migrations\ResetCommand;
@@ -41,19 +39,16 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('command.seed', function($app)
-            {
+        $this->app->bindShared('command.seed', function ($app) {
                 return new DatabaseSeedCommand($app['db']);
             });
 
-        $this->app->bindShared('command.migrate.reset', function($app)
-            {
+        $this->app->bindShared('command.migrate.reset', function ($app) {
                 return new ResetCommand($app['migrator']);
             });
 
-        $this->app->bindShared('command.migrate.refresh', function()
-            {
-                return new RefreshCommand;
+        $this->app->bindShared('command.migrate.refresh', function () {
+                return new RefreshCommand();
             });
     }
 
@@ -65,7 +60,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         return [
             'command.seed',
             'command.migrate.refresh',
-            'command.migrate.reset'
+            'command.migrate.reset',
         ];
     }
 }

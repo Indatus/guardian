@@ -8,7 +8,6 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
 use Illuminate\Config\Repository;
 use Illuminate\Foundation\Application;
 
@@ -46,7 +45,7 @@ class ConfirmationService
         return call_user_func_array(
             [
                 $this->app,
-                'environment'
+                'environment',
             ],
             $this->config->get('guardian::environments')
         );
