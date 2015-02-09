@@ -6,6 +6,8 @@ Guardian is a Laravel package that allows you to protect more than just the `pro
 
 ---
 
+[![Latest Stable Version](https://poser.pugx.org/indatus/guardian/v/stable.png)](https://packagist.org/packages/indatus/guardian) [![Total Downloads](https://poser.pugx.org/indatus/guardian/downloads.png)](https://packagist.org/packages/indatus/guardian) [![Build Status](https://travis-ci.org/Indatus/guardian.png?branch=master)](https://travis-ci.org/Indatus/guardian)
+
 <a name="features" />
 ## Features
 
