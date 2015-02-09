@@ -18,6 +18,7 @@ Supported artisan commands:
  * `migrate:refresh`
  * `migrate:reset`
  * `db:seed`
+ * Any other command that uses this package's `ConfirmableTrait`
  
 <a name="installation" />
 ## Installation
