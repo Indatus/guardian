@@ -1,6 +1,6 @@
 {
     "name": "indatus/guardian",
-    "description": "Provides extra security for potentially destructive actions",
+    "description": "Allows you to protect more than just the production environment from potentially destructive tasks",
     "keywords": ["laravel", "artisan", "migrate", "migrations", "seed", "seeders"],
     "type": "library",
     "license": "MIT",
