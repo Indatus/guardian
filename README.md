@@ -1,12 +1,10 @@
 # Guardian
 
-Guardian allows you to protect environments in addition to `production` schedule your artisan commands within your [Laravel](http://laravel.com) project, eliminating the need to touch the crontab when deploying.  It also allows commands to run per environment and keeps your scheduling logic where it should be, in your version control.
+Guardian allows you to protect environments in addition to `production` from potentially destructive tasks. 
 
 <img src="https://s3.amazonaws.com/uploads.hipchat.com/64994/600576/uStJyocBGHUKxPf/Screen%20Shot%202015-02-09%20at%207.41.32%20AM.png"/>
 
 ---
-
-[![Latest Stable Version](https://poser.pugx.org/indatus/guardian/v/stable.png)](https://packagist.org/packages/indatus/guardian) [![Total Downloads](https://poser.pugx.org/indatus/guardian/downloads.png)](https://packagist.org/packages/indatus/guardian) [![Build Status](https://travis-ci.org/Indatus/guardian.png?branch=master)](https://travis-ci.org/Indatus/guardian)
 
 ## README Contents
 
