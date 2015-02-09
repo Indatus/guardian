@@ -1,6 +1,6 @@
 # Guardian
  
-Guardian allows you to protect more than just the `production` environment from potentially destructive tasks.
+Guardian is a Laravel package that allows you to protect more than just the `production` environment from potentially destructive tasks.
 
 <img src="https://s3.amazonaws.com/uploads.hipchat.com/64994/600576/uStJyocBGHUKxPf/Screen%20Shot%202015-02-09%20at%207.41.32%20AM.png"/>
 
